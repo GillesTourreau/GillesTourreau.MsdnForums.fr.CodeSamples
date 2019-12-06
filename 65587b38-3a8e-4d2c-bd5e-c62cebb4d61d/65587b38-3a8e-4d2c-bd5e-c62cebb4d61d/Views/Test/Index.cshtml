@@ -1,0 +1,21 @@
+﻿@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Index</title>
+</head>
+<body>
+    <div>
+        @using (this.Html.BeginForm("Toto", "Test"))
+        {
+            @Html.TextBox("Toto")
+            @Html.Action("Toto")
+        }
+    </div>
+</body>
+</html>

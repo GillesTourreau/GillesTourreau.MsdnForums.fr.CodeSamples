@@ -1,0 +1,16 @@
+﻿<Window x:Class="_9c64edb9_d3cc_4b8e_80e5_cc63c7f7d33b.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="MainWindow" Height="350" Width="525">
+<Grid>
+    <ComboBox x:Name="comboPoliceSecours" Margin="49,60,264,200">
+        <ComboBox.ItemTemplate>
+            <DataTemplate>
+                <TextBlock FontFamily="{Binding .}" Text="{Binding Source}" />
+            </DataTemplate>
+        </ComboBox.ItemTemplate>
+    </ComboBox>
+
+    <TextBlock Text="Grace à WPF j'ai la peau lisse !" FontFamily="{Binding ElementName=comboPoliceSecours, Path=SelectedItem}" Margin="49,151,264,112" />
+</Grid>
+</Window>

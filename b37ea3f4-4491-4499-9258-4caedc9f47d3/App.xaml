@@ -1,0 +1,7 @@
+﻿<Application
+    x:Class="b37ea3f4_4491_4499_9258_4caedc9f47d3.App"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:b37ea3f4_4491_4499_9258_4caedc9f47d3">
+
+</Application>

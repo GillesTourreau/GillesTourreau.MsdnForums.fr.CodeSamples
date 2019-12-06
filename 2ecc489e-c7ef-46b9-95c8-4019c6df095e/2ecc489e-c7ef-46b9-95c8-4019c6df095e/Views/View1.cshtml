@@ -1,0 +1,12 @@
+﻿@model MonModèle
+
+@foreach(CompteTwitter compte in this.Model.ComptesTwitter)
+{
+    <p>@compte.Nom</p>
+}
+
+@foreach (Tweet tweet in this.Model.Tweets)
+{
+    <p>@tweet.Contenu</p>
+}
+
